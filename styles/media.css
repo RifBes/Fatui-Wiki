@@ -1,0 +1,44 @@
+@media screen and (max-width: 420px) {
+    .logo {
+        height: 40px;
+        padding-top: 15px;
+    }
+
+    .main_header {
+        font-size: 25px;
+    }
+
+    .intro {
+        font-size: 15px;
+    }
+
+    .container {
+        height: 300px;
+        gap: 7px;
+        width: 80%;
+    }
+
+    .harb::after {
+        font-size: 17px;
+    }
+
+    .Pierro,
+    .Il_Capitano,
+    .Dottore,
+    .Columbina,
+    .Arlecchino,
+    .Pulcinella,
+    .Scaramouche,
+    .Sandrone,
+    .Signora,
+    .Pantalone,
+    .Tartaglia {
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}

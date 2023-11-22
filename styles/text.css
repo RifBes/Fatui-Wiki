@@ -1,0 +1,45 @@
+.Pierro,
+.Il_Capitano,
+.Dottore,
+.Columbina,
+.Arlecchino,
+.Pulcinella,
+.Scaramouche,
+.Sandrone,
+.Signora,
+.Pantalone,
+.Tartaglia {
+    width: 550px;
+    height: auto;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    display: none;
+    color: #fff;
+}
+
+.name_title {
+    font-size: 30px;
+}
+
+.quote {
+    text-align: justify;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.quoteFromWho {
+    float: right;
+    margin-right: 0;
+    font-style: normal;
+}
+
+.describe_char {
+    text-indent: 4%;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
