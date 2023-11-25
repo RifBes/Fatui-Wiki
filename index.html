@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./styles/text.css">
     <link rel="stylesheet" href="./styles/img.css">
+    <link rel="stylesheet" href="./styles/slider.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/media.css">
     <title>Предвестники</title>
@@ -19,7 +21,7 @@
     <div class="intro">
         <p>Немного о предвестниках</p>
     </div>
-    <div class="container">
+    <div class="grid-container-harb">
         <!-- Через переменную CSS работает криво и нестабильно, поэтому было принято решение убрать её -->
         <!-- <div class="harb harb_0" style="--image_harb: url(./img/Pierro.png);" data-text="Пьеро"> </div> -->
         <div class="harb harb_0" data-text="Пьеро"> </div>
@@ -33,6 +35,31 @@
         <div class="harb harb_8" data-text="Синьора"> </div>
         <div class="harb harb_9" data-text="Панталоне"> </div>
         <div class="harb harb_11" data-text="Тарталья"> </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider-container">
+            <div class="slider-images">
+                <div class="slider__name" id="slider__name">
+                    <p class="slider__name-harb">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+                </div>
+                <img class="slider__image" src="./img/Pierro.png" alt="Пьеро">
+                <img class="slider__image" src="./img/Il_Capitano.png" alt="Капитано">
+                <img class="slider__image" src="./img/Dottore.png" alt="Дотторе">
+                <img class="slider__image" src="./img/Columbina.png" alt="Коломбина">
+                <img class="slider__image" src="./img/Arlecchino.png" alt="Арлекино">
+                <img class="slider__image" src="./img/Pulcinella.png" alt="Пульчинелла">
+                <img class="slider__image" src="./img/Scaramouche.png" alt="Скарамуш">
+                <img class="slider__image" src="./img/Sandrone.png" alt="Сандроне">
+                <img class="slider__image" src="./img/Signora.png" alt="Синьора">
+                <img class="slider__image" src="./img/Pantalone.png" alt="Панталоне">
+                <img class="slider__image" src="./img/Tartaglia.png" alt="Тарталья">
+            </div>
+            <div class="slider__buttons-area">
+                <div class="arrow" id="left_button"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                <div class="arrow" id="right_button"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            </div>
+        </div>
     </div>
 
     <div class="Pierro" id="Pierro">
@@ -189,7 +216,7 @@
             оставаться начеку.
         </p>
         <h3>Тизер персонажа</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rxAw_fBuxlA?si=bBJk5GcB-ciPyGzL"
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/rxAw_fBuxlA?si=bBJk5GcB-ciPyGzL"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
@@ -199,8 +226,9 @@
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
-        </iframe>
+        </iframe> -->
     </div>
+    <script src="./scripts/slider.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 

@@ -1,0 +1,85 @@
+.slider {
+    display: none;
+    max-width: 400px;
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-container {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-images {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.slider__name {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+    background: black;
+    bottom: 10px;
+    right: 50%;
+    transform: translateX(50%)
+}
+
+.slider__image {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slider__image-active {
+    display: flex;
+    border-radius: 20px;
+    background: rgb(111, 111, 111);;
+}
+
+.slider__buttons-area {
+    position: absolute;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.arrow {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(53, 21, 20);
+    border: 1px solid rgb(255, 54, 31);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background: rgba(53, 21, 20, 0.7);
+    border: 1px solid rgb(166, 29, 13);
+    color: black;
+}
+
+i.fa.fa-angle-left, i.fa.fa-angle-right {
+    color: rgb(255, 54, 31);
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 800;
+}

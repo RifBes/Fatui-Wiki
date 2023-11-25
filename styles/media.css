@@ -1,4 +1,4 @@
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
     .logo {
         height: 40px;
         padding-top: 15px;
@@ -12,14 +12,12 @@
         font-size: 15px;
     }
 
-    .container {
-        height: 300px;
-        gap: 7px;
-        width: 80%;
+    .grid-container-harb {
+        display: none;
     }
 
-    .harb::after {
-        font-size: 17px;
+    .slider {
+        display: flex;
     }
 
     .Pierro,
