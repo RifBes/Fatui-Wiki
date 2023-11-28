@@ -7,6 +7,27 @@ html {
 body {
     margin: 0;
     background-color: black;
+    color: #fff;
+    /* Для Файерфокса штуки */
+    scrollbar-width: 10px;
+    scrollbar-color: rgb(255, 54, 31) none;
+}
+
+/* сама прокрутка */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* дорожка (индикатор выполнения) полосы прокрутки, где поверх белой полосы находится серая полоса. */
+body::-webkit-scrollbar-track { 
+    background: none;
+}
+
+/* перетаскиваемый маркер прокрутки */
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 54, 31);
+    border-radius: 20px;
+    border: 3px solid rgb(53, 21, 20);
 }
 
 .header {
@@ -19,7 +40,6 @@ body {
 
 .main_header {
     margin-bottom: 0;
-    color: aliceblue;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
 }
@@ -34,7 +54,6 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-    color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -67,7 +86,6 @@ body {
     bottom: 10px;
     padding: 10px;
     opacity: 0;
-    color: #fff;
     font-family: 'Caveat', cursive;
     font-size: 25px;
     background: black;

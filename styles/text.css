@@ -9,7 +9,7 @@
 .Signora,
 .Pantalone,
 .Tartaglia {
-    width: 550px;
+    width: 700px;
     height: auto;
     padding-top: 50px;
     margin-left: auto;
@@ -21,6 +21,19 @@
 
 .name_title {
     font-size: 30px;
+}
+
+.blockquote {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.blockquote cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
 }
 
 .quote {
