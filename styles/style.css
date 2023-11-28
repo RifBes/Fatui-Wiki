@@ -30,6 +30,11 @@ body::-webkit-scrollbar-thumb {
     border: 3px solid rgb(53, 21, 20);
 }
 
+/* нижний угол полосы прокрутки, где встречаются горизонтальная и вертикальная полосы прокрутки */
+body::-webkit-scrollbar-corner {
+    background: black;
+}
+
 .header {
     display: flex;
     justify-content: center;
